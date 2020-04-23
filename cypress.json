@@ -1,0 +1,12 @@
+{
+    "baseUrl": "https://www.fnac.pt/",
+    "chromeWebSecurity": false,
+    "trashAssetsBeforeRuns": false,
+    "viewportWidth": 1024,
+    "viewportHeight": 660,
+    "integrationFolder": "cypress/integration/",
+    "numTestsKeptInMemory": 1,
+    "screenshotOnRunFailure": true,
+    "video": true,
+    "defaultCommandTimeout": 10000
+}
