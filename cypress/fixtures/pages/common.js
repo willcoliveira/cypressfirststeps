@@ -14,7 +14,7 @@ class commonPage {
                         expect($sectionList.eq(1), 'News').to.have.text('CHEGA PRIMEIRO ÀS NOVIDADES ');
                         expect($sectionList.eq(2), 'Selected for you').to.have.text('espreita o que selecionámos para ti!');
                         expect($sectionList.eq(3), 'Recommendations').to.have.text('Estas recomendações são inspiradas no teu histórico de navegação e nas tuas compras.');
-                        expect($sectionList.eq(4), `Expert's adive`).to.have.text('Conselhos dos nossos Experts');
+                        expect($sectionList.eq(4), `Expert's advise`).to.have.text('Conselhos dos nossos Expert');
                 });
                 break;
             case 'tv':
@@ -29,7 +29,7 @@ class commonPage {
                         expect($sectionList.eq(5), 'Main Brands').to.have.text('Principais Marcas');
                         expect($sectionList.eq(6), 'You May Also Like').to.have.text('Também poderás gostar de');
                         expect($sectionList.eq(7), 'Recommendations').to.have.text('Estas recomendações são inspiradas no teu histórico de navegação e nas tuas compras.');
-                        expect($sectionList.eq(8), `Expert's advice`).to.have.text('Conselhos dos Nossos Experts');
+                        expect($sectionList.eq(8), `Expert's advise`).to.have.text('Conselhos dos Nossos Experts');
                     });
                 break;
         }

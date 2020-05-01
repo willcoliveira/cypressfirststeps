@@ -14,7 +14,10 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
-import './commands'
+require('cypress-plugin-retries')
+import './commands';
+
+Cypress.env('RETRIES', 2)
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')

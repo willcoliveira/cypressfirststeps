@@ -17,6 +17,7 @@
   "author": "William Oliveira",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^4.4.0"
+    "cypress": "^4.4.0",
+    "cypress-plugin-retries": "^1.5.2"
   }
 }
