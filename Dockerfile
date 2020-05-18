@@ -10,4 +10,3 @@ RUN yarn
 RUN yarn cy:run
 
 # You can use "docker build -t cypress ." to run
-# You can use RUN $(npm bin)/cypress run --browser firefox to add a cross browser coverage.
