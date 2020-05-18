@@ -39,7 +39,7 @@ You will see the following messages:
 > success Saved lockfile.
 > ```
 
-### How to Run functional tests with Cypress Interface
+### How to Run the tests with Cypress Interface
 
 To run the specs with headed GUI and have a way to debug the tests start Cypress using: 
 
@@ -55,7 +55,7 @@ Also, you can run and follow all tests using the command below:
 > ```
 
 
-### How to Run functional tests with Cypress using CLI
+### How to Run the tests with Cypress using CLI
 The following command will run all the specs in headless mode.
 
 > ```bash
@@ -63,3 +63,16 @@ The following command will run all the specs in headless mode.
 > yarn cy:run:headless
 > ```
 
+
+### Cypress with Docker
+When we execute tests using our local resources, the tests take advantage of the host machine like browsers, memory and etc.
+
+Using Docker you'll be able to customize your "machine configurations" without having any extra infrastructure. It's so simple to create Containers on the fly and add your tests into a Continuos Integration Environment.
+
+For this case, the tests are running inside the container via dockerfile so, you can follow the next steps to see how to run tests with Docker.
+
+### How to Run the tests with Docker
+> ```bash
+> # Into your cli 
+> docker build -t cypress .
+> ```
