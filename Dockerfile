@@ -6,7 +6,6 @@ WORKDIR /testApp
 # Copying Cypress tests code from your repo/host to container
 COPY . /testApp
 # Running the tests
-RUN yarn
-RUN yarn cy:run
+RUN yarn && yarn cy:run
 
 # You can use "docker build -t cypress ." to run
