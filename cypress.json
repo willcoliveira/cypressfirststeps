@@ -7,6 +7,6 @@
     "integrationFolder": "cypress/integration/",
     "numTestsKeptInMemory": 1,
     "screenshotOnRunFailure": true,
-    "video": true,
+    "video": false,
     "defaultCommandTimeout": 10000
 }
