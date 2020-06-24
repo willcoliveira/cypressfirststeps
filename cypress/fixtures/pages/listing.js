@@ -8,7 +8,7 @@ class listingPage {
         cy.get(selectors.link)
             .should('have.attr', 'href', 'https://www.fnac.pt/')
             .within(() => {
-                cy.get(selectors.linkSpan).should('have.text', 'Home')
+                cy.get(selectors.linkSpan).should('contain', 'Home')
             }); 
     }
 }
